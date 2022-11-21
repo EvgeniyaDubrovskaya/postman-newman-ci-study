@@ -1,0 +1,12 @@
+{
+  "name": "postmanstudy",
+  "version": "1.0.0",
+  "description": "Project to store Postman tests ",
+  "scripts": {
+    "api-test": "newman run jsonplaceholder.postman_collection.json"
+  },
+  "author": "Jane Doe",
+  "dependencies": {
+    "newman": "^5.3.2"
+  }
+}
